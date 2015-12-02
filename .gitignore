@@ -1,0 +1,5 @@
+mail_log/*
+!mail_log/.keep
+log/*
+!log/.keep
+test_data

@@ -1,0 +1,11 @@
+development: &common
+  mailbook: http://mailbook.chammarit.sohosai.com/api/v1
+  max_rcpts: 10
+  smtp_server:
+    host: chammarit.sohosai.com
+    port: 25
+  domain: ml.sohosai.com
+  log_dir: ./mail_log
+
+production:
+  <<: *common
